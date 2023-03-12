@@ -1,6 +1,9 @@
 // const axios = require('axios')
 // const url = 'http://checkip.amazonaws.com/';
 let response;
+exports.lambdaHandler = async (event, context) => {
+    console.log(JSON.stringify(event, null, 2));
+}
 
 /**
  *
